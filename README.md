@@ -51,9 +51,11 @@ Create a new file named desktopapp.py and paste the code below into it.
             print("An Exception occured: " + str(general_exception))
 
 Execute:
+
     python3 desktopapp.py
 
 When finished, deactivate vitualenv:
+
     deactivate
 
 ## Web application (Python)
@@ -95,4 +97,5 @@ Start the web server and execute the code:
     FLASK_APP=webapp.py flask run
 
 When finished, deactivate vitualenv:
+
     deactivate
