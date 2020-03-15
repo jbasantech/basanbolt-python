@@ -64,8 +64,8 @@ Install Flask web application framework:
 
 Create a new file named webapp.py and paste the code below into it.
 
-from flask import Flask
-from bitcoinrpc.authproxy import AuthServiceProxy, JSONRPCException
+    from flask import Flask
+    from bitcoinrpc.authproxy import AuthServiceProxy, JSONRPCException
 
     app = Flask(__name__)
     
@@ -92,4 +92,7 @@ from bitcoinrpc.authproxy import AuthServiceProxy, JSONRPCException
 
 Start the web server and execute the code:
 
-    FLASK_APP=webapp.py flak run
+    FLASK_APP=webapp.py flask run
+
+When finished, deactivate vitualenv:
+    deactivate
